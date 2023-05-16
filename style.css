@@ -1,0 +1,97 @@
+/* div{
+    background-color: blue;
+    color: fuchsia;
+    height: 150vh;
+    width: 70%;
+    margin: auto;
+}
+
+h1{
+    background-color: aqua;
+    width: 70%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 5em;
+    padding-right: 1em; 
+}
+
+h2{
+    background-color: papayawhip;
+    margin: 2em;
+    padding: 3em;
+    border: 10px solid paleturquoise
+} */
+
+/* 
+html{
+    font-size: 20px;
+}
+
+main{
+    background-color: blue;
+    color: #CDECF9;
+    width: 80%;
+    margin: auto;
+    
+    height: 200vh;   
+}
+
+h1{
+    text-align: center;
+    padding: 15px 8px; 
+}
+
+h2{
+    border-bottom: 10px dashed;
+    margin-bottom: 1em;
+}
+p{
+    font-size: 2rem;
+    border-left: 5px dashed;
+    border-right: 5px dashed;
+
+}
+
+
+
+
+
+
+ */
+/* 
+ /* body{
+    background-color: azure;
+ }
+ div{
+    height: 60vh;
+    width: 50%;
+    background-color: rgba(0, 0, 255, 0.589);
+    background: linear-gradient(180deg, green 30%, white 30%, white 65%, green 65% ); */
+ /* } */ 
+
+.bel{
+    height: 60vh;
+    width: 50%;
+    background-color: rgba(0, 0, 255, 0.589);
+    background: linear-gradient(90deg, black 30%, yellow 30%, yellow 65%, red 65% );
+    margin: auto;
+ } 
+
+ div{
+    height: 60vh;
+    width: 50%;
+    background-color: rgba(0, 0, 255, 0.589);
+    background: linear-gradient(180deg, red 20%, white 20%, white 25%, blue 25%, blue 60%, white 60%, white 65%, green 65%);
+    margin: auto;
+    margin-bottom: 50px;
+ }
+
+ .pra{
+    height: 60vh;
+    width: 50%;
+    background: linear-gradient(180deg, black 30%, white 30%, white 40%, yellow 40%, yellow 40%, yellow 70%, white 70%, white 80%, blue 80%);
+
+ }
+
+
+

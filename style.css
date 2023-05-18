@@ -67,8 +67,34 @@ p{
     width: 50%;
     background-color: rgba(0, 0, 255, 0.589);
     background: linear-gradient(180deg, green 30%, white 30%, white 65%, green 65% ); */
- /* } */ 
 
+body{
+    background-color: cyan;
+}
+
+.image{
+    width: 700px;
+    height: 400px;
+    background: url(./images/hilda.jpeg);
+    background-size: cover;
+    color: transparent;
+    font-size: 4em ;
+    -webkit-background-clip: text;
+    text-align: center;
+ }
+
+ .online{
+    width: 700px;
+    height: 400px;
+    background:url(./images/woman.png.png), url(https://images.unsplash.com/photo-1579165466949-3180a3d056d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80)
+    , url(https://images.unsplash.com/photo-1589156280159-27698a70f29e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=386&q=80),
+    linear-gradient(90deg, blue, green, yellow);
+    background-size: 150px;
+    background-position: center, top left, bottom right, center, center;
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+
+ }
+  
 .bel{
     height: 60vh;
     width: 50%;
@@ -81,17 +107,62 @@ p{
     height: 60vh;
     width: 50%;
     background-color: rgba(0, 0, 255, 0.589);
-    background: linear-gradient(180deg, red 20%, white 20%, white 25%, blue 25%, blue 60%, white 60%, white 65%, green 65%);
+    background: linear-gradient(180deg, red 30%, white 30%, white 35%, blue 35%, blue 60%, white 60%, white 65%, green 65%);
     margin: auto;
     margin-bottom: 50px;
  }
 
- .pra{
+ 
+ .japan{
+    width: 600px;
+    height: 500px;
+    background: radial-gradient(circle, red 30%, white 30%);
+ }
+ .nig{
     height: 60vh;
     width: 50%;
-    background: linear-gradient(180deg, black 30%, white 30%, white 40%, yellow 40%, yellow 40%, yellow 70%, white 70%, white 80%, blue 80%);
+    background-color: rgba(0, 0, 255, 0.589);
+    background: linear-gradient(90deg, green 30%, white 30%, white 65%, green 65% )
+ }
+
+ .conic{
+    text-transform: uppercase;
+    font-size: 4em;
+    text-align: center;
+    width: 700px;
+    height: 400px;
+    margin-top: 30px;
+    color: transparent;
+    background: conic-gradient( yellow 25%, red 25%, red 30%, blue 30%, blue 60%, green 60%, green 80%, purple 80%, purple 100% );
+    -webkit-background-clip: text;
 
  }
+
+ .ghana{ height: 60vh;
+    width: 50%;
+    background-image: url(./images/R-removebg-preview.png), 
+    linear-gradient(180deg, red 30%, yellow 30%, yellow 65%, green 65% ) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px, 600px;
+ }
+
+ .blend{
+    width: 700px;
+    height: 400px;
+    background-color: green;
+    background-image: url(./images/blackwoman.jpeg);
+    background-size: cover;
+    background-color: rgb(48, 55, 57);
+ }
+ .blend:hover{
+    background-blend-mode: overlay;
+    cursor: pointer;
+
+ }
+
+
+
 
 
 
